@@ -141,7 +141,4 @@ Best model is selected automatically by **weighted F1-score**.
 
 ---
 
-## 👤 Author
 
-Final Year Data Science Project  
-Built with ❤️ using Python, Streamlit, scikit-learn, XGBoost, LightGBM, SHAP & Plotly
