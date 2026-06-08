@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 
 FEATURE_COLS = ['N', 'P', 'K', 'temperature', 'humidity', 'ph', 'rainfall']
 
-# Crop-specific ideal ranges for reasoning generation
+# Crop-specific ideal ranges for reasoning generations
 CROP_IDEAL_RANGES = {
     'rice':       {'N':(60,100), 'P':(30,60),  'K':(30,60),  'temperature':(20,27), 'humidity':(80,90), 'ph':(5.5,7.0), 'rainfall':(150,300)},
     'maize':      {'N':(50,90),  'P':(30,60),  'K':(20,50),  'temperature':(18,27), 'humidity':(55,75), 'ph':(5.5,7.5), 'rainfall':(50,120)},

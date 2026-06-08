@@ -1,6 +1,6 @@
 """
 train_model.py
-==============
+=============
 Model training, comparison, and selection.
 Compares: Random Forest, XGBoost, LightGBM, Decision Tree, KNN, Logistic Regression
 """

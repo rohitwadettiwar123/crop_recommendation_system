@@ -109,9 +109,9 @@ def compute_global_shap(explainer, X_scaled: np.ndarray,
         return np.ones(len(FEATURE_COLS)) / len(FEATURE_COLS)
 
 
-# ─────────────────────────────────────────────
+# ───────────────────────────────────────────
 # PLOTLY CHARTS
-# ─────────────────────────────────────────────
+# ───────────────────────────────────────────
 
 def plot_local_explanation(shap_values: np.ndarray, crop_name: str) -> go.Figure:
     """Waterfall-style bar chart showing feature contributions for a prediction."""

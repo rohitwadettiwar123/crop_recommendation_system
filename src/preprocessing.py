@@ -2,7 +2,7 @@
 preprocessing.py
 ================
 Data preprocessing pipeline for the Explainable Crop Suitability Prediction System.
-Handles data loading, cleaning, outlier detection, and feature scaling.
+Handles loading data, cleaning, outlier detection, and feature scaling.
 """
 
 import pandas as pd
